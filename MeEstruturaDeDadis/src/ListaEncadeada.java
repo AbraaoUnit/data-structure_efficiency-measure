@@ -19,11 +19,14 @@ public class ListaEncadeada {
 
     public void remover(int valor){
         No atual = cabeca;
+        No anterior = cabeca;
 
         while (atual.proximo != null){
+            if(atual.proximo.conta.getNumeroConta() == valor){
+                anterior.proximo = atual.proximo;
+            }
+            anterior = atual;
             atual = atual.proximo;
-            while (atual.proximo != null){
-                if ()
             }
         }
     }

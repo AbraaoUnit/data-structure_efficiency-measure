@@ -17,5 +17,30 @@ public class Contas {
         this.titular = titular;
     }
 
+    public boolean isAtiva() {
+        return ativa;
+    }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getDataAbertura() {
+        return dataAbertura;
+
+    public int getNumeroConta() {
+        return numeroConta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public String getTipoConta() {
+        return tipoConta;
+    }
+
+    public String getTitular() {
+        return titular;
+    }
 }
